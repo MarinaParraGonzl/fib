@@ -49,5 +49,5 @@ if __name__ == "__main__":
     parser.add_argument('nth', type=int, help="Nth fibonacci number.")  # positional argument
     args = parser.parse_args()
 
-    result = fibonacci_recursive(args.nth)
+    result = fibonacci_iterative(args.nth)
     print(result)
