@@ -45,9 +45,9 @@ from functools import cache
 @cache
 def fibonacci_recursive_memoization(n: int) -> int:
     """
-    Computes the n-th Fibonacci number using a recursive method with memoization.
-    :param n: n-th Fibonacci number
-    :return: The n-th fibonacci number
+    Computes the i-th Fibonacci number using a recursive method with memoization.
+    :param n: i-th Fibonacci number
+    :return: The i-th fibonacci number
     """
     if n < 0:
         raise ValueError("n must be greater than or equal to zero.")
