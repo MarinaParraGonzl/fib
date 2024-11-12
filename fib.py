@@ -2,9 +2,9 @@ import argparse
 
 def fibonacci_iterative(n: int) -> int:
     """
-    Computes the n-th Fibonacci number
+    Computes the i-th Fibonacci number
     :param n: i-th Fibonacci number
-    :return: The n-th fibonacci number
+    :return: The ni-th fibonacci number
     """
     if n < 0:
         raise ValueError("n must be greater than or equal to zero.")
@@ -24,9 +24,9 @@ def fibonacci_iterative(n: int) -> int:
 
 def fibonacci_recursive(n: int) -> int:
     """
-    Computes the n-th Fibonacci number
+    Computes the i-th Fibonacci number
     :param n: i-th Fibonacci number
-    :return: The n-th fibonacci number
+    :return: The i-th fibonacci number
     """
     if n < 0:
         raise ValueError("n must be greater than or equal to zero.")
